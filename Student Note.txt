@@ -1,0 +1,9 @@
+Nama Website : SmartCamp
+
+Fitur Menggunakan Javascript : 
+- Smooth Scrolling :
+  -> Akses dengan cara menekan click di menu bar atau di button
+- Merubah Warna Heading Ketika Di Hover
+  -> Hover Heading Text
+
+Illustration Source : https://craftwork.design

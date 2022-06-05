@@ -4,13 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="img/icon/favicon.ico" type="image/x-icon" />
     <title>Smart Camp</title>
   </head>
   <body>
     <!-- Header -->
     <header>
-      <a href="#" class="logo">Smart<span>Camp</span></a>
+      <a href="#hero" class="logo">Smart<span>Camp</span></a>
 
       <input type="checkbox" id="collapseMenu" />
       <label for="collapseMenu">
@@ -20,9 +27,11 @@
       <nav class="navbar">
         <a href="#hero">Home</a>
         <a href="#features">Features</a>
+        <a href="#classPackage">Class package</a>
         <a href="#about">About</a>
         <a href="#testimonials">Testimonials</a>
         <a href="#contact">Contact</a>
+        <a href="#" class="btn btn-register">Register</a>
       </nav>
     </header>
     <!-- Header -->
@@ -34,11 +43,10 @@
           <span>expand</span> your knowledge by joining <span>our class</span>
         </h3>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia
-          vitae, voluptate non autem aliquam rerum sequi. Tempore, iste modi.
-          Iure.
+          kembangkan dan asah kemampuan mu dengan mengikuti berbagai paket kelas
+          yang kami sediakan dengan harga terjangkau.
         </p>
-        <a href="#" class="btn">Get Started</a>
+        <a href="#classPackage" class="btn">Get Started</a>
       </div>
 
       <div class="heroImage">
@@ -49,101 +57,141 @@
 
     <main>
       <div id="content">
-        <!-- Features Section-->
+        <!-- features Section -->
         <section class="features" id="features">
-          <h1 class="heading">class features</h1>
-          <div class="boxContainer">
-            <div class="box">
-              <img src="img/022.png" alt="" />
-              <h3>Lorem, ipsum dolor.</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-                voluptatem cupiditate nostrum dolor repellat? Sed.
-              </p>
-              <a href="3" class="btn">detail</a>
-            </div>
-            <div class="box">
-              <img src="img/022.png" alt="" />
-              <h3>Lorem, ipsum dolor.</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-                voluptatem cupiditate nostrum dolor repellat? Sed.
-              </p>
-              <a href="3" class="btn">detail</a>
-            </div>
-            <div class="box">
-              <img src="img/022.png" alt="" />
-              <h3>Lorem, ipsum dolor.</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-                voluptatem cupiditate nostrum dolor repellat? Sed.
-              </p>
-              <a href="#" class="btn">detail</a>
-            </div>
-            <div class="box">
-              <img src="img/022.png" alt="" />
-              <h3>Lorem, ipsum dolor.</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-                voluptatem cupiditate nostrum dolor repellat? Sed.
-              </p>
-              <a href="3" class="btn">detail</a>
-            </div>
+          <div class="featuresTitle">
+            <h1>features</h1>
+            <p>
+              dengan metode dan materi yang disusun <br />
+              oleh mentor profesonal dibidangnya
+            </p>
           </div>
 
-          <div class="viewMore">
-            <a href="#" class="btn">View More</a>
+          <div class="featuresServices">
+            <div class="cardContainer">
+              <div class="card">
+                <img src="img/features-1.png" alt="" />
+                <h3>interactive class</h3>
+              </div>
+              <div class="card">
+                <img src="img/features-2.png" alt="" />
+                <h3>small class</h3>
+              </div>
+              <div class="card">
+                <img src="img/features-3.png" alt="" />
+                <h3>fun learning.</h3>
+              </div>
+              <div class="card">
+                <img src="img/features-4.png" alt="" />
+                <h3>creative methode</h3>
+              </div>
+            </div>
           </div>
         </section>
-        <!-- Features Section-->
+        <!-- features Section -->
+
+        <!-- classPackage Section-->
+        <section class="classPackage" id="classPackage">
+          <article>
+            <h1 class="title">class package</h1>
+            <div class="cardContainer">
+              <div class="card">
+                <img src="img/class-1.png" alt="" />
+                <h3>english club</h3>
+                <p>
+                  dengan metode yang disusun oleh mentor profesional, dijamin
+                  belajar bahasa inggris kalian gak akan ngebosenin.
+                </p>
+                <a href="#" class="btn">detail</a>
+              </div>
+              <div class="card">
+                <img src="img/class-2.png" alt="" />
+                <h3>code lab</h3>
+                <p>
+                  belajar pemrograman di smartcamp, kalian gak perlu khawatir
+                  jika kebingungan, ada mentor yang siap membantumu kapan saja.
+                </p>
+                <a href="#" class="btn">detail</a>
+              </div>
+              <div class="card">
+                <img src="img/class-3.png" alt="" />
+                <h3>math for kids</h3>
+                <p>
+                  kelas yang disusun untuk anak-anak, pembelajaran dengan metode
+                  yang unik serta mentor profesional dibidangnya.
+                </p>
+                <a href="#" class="btn">detail</a>
+              </div>
+              <div class="card">
+                <img src="img/class-4.png" alt="" />
+                <h3>design class</h3>
+                <p>
+                  kelas yang unik kamu yang ingin mempunyai skill di bidang
+                  design, kamu akan diajarkan untuk menjadi modern designer.
+                </p>
+                <a href="#" class="btn">detail</a>
+              </div>
+            </div>
+
+            <div class="viewMore">
+              <a href="#" class="btn">View More</a>
+            </div>
+          </article>
+        </section>
+        <!-- classPackage Section-->
 
         <!-- About Section -->
         <section class="about" id="about">
-          <h1 class="heading">about platform</h1>
+          <h1 class="title">about platform</h1>
 
-          <div class="boxContainer">
+          <div class="cardContainer">
             <div class="aboutImage">
               <img src="img/about-img.png" alt="" />
             </div>
 
             <div class="aboutText">
-              <h3>Lorem, <span>ipsum</span> dolor.</h3>
+              <h3>mengenal <span>lebih</span> dekat.</h3>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Accusamus labore assumenda adipisci! Aliquid, placeat hic
-                praesentium qui nihil dicta suscipit?
+                <span class="firstText">Smart</span
+                ><span class="secondText">Camp</span> adalah platform digital
+                untuk belajar design, code, bahasa, matematika dan skill lain
+                yang dibutuhkan dari mentor yang sangat berpengalaman
+                dibidangnya.
               </p>
-              <a href="#" class="btn">lorem ipsum</a>
+              <a href="#contact" class="btn">get contact</a>
             </div>
           </div>
         </section>
         <!-- About Section -->
 
         <section class="testimonials" id="testimonials">
-          <h1 class="heading">our testimonials</h1>
-          <div class="boxContainer">
-            <div class="box">
+          <h1 class="title">our testimonials</h1>
+          <div class="cardContainer">
+            <div class="card">
               <img src="img/img-1.png" alt="" />
-              <h3>lorem impus dolor</h3>
+              <h3>agatha edelin</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia
-                eaque facilis eveniet molestiae nobis et?
+                dengan metode yang unik, gak butuh lama untuk memahami pelajaran
+                yang dikasih sama mentor. mentor nya juga baik asik juga, sukaaa
+                deh .
               </p>
             </div>
-            <div class="box">
-              <img src="img/img-1.png" alt="" />
-              <h3>lorem impus dolor</h3>
+            <div class="card">
+              <img src="img/img-2.png" alt="" />
+              <h3>Elizabeth Carissa</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia
-                eaque facilis eveniet molestiae nobis et?
+                belajar coding jadi gak ngebosenin, karna pembawaan materi nya
+                asik banget, jadi betah belajar lama-lama. dijamin gak rugi
+                dehhh.
               </p>
             </div>
-            <div class="box">
-              <img src="img/img-1.png" alt="" />
-              <h3>lorem impus dolor</h3>
+            <div class="card">
+              <img src="img/img-3.png" alt="" />
+              <h3>Abigail</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia
-                eaque facilis eveniet molestiae nobis et?
+                baru ambil paket kelas english club, kemampuan speaking saya
+                meningkat dari sebelumnya, jadi makin pede buat ngomong pake
+                bahasa inggris.
               </p>
             </div>
           </div>
@@ -156,17 +204,12 @@
 
         <!-- Contact Section -->
         <section class="contact" id="contact">
-          <h1 class="heading">contact</h1>
-          <div class="boxContainer">
+          <h1 class="title">contact me</h1>
+          <div class="cardContainer">
             <aside>
               <img src="img/foto.png" alt="" />
-              <h3>About Me</h3>
-              <ul>
-                <li>My name is Syahrul Mubarok Nur Muhammad</li>
-                <li>I live in Bandung</li>
-                <li>contact me at syahrulmf@gmail.com</li>
-                <li>tentang saya</li>
-              </ul>
+              <h3>Syahrul Mubarok Nur Muhammad</h3>
+              <p>contact me at syahrulmf@gmail.com</p>
             </aside>
           </div>
         </section>
@@ -178,15 +221,16 @@
       <div class="footerContainer">
         <div class="aboutPlatform">
           <ul>
-            <li>Jl. Kiaracondong Kota Bandung</li>
+            <li>Jl. Buah Batu Kota Bandung</li>
             <li>smartcamp@mail.com</li>
-            <li>+62-896-7256-1512</li>
+            <li>+62-896-8823-1512</li>
           </ul>
         </div>
-        <div class="quickLinks">
+        <div class="siteMaps">
+          <p>site maps</p>
           <ul>
             <li><a href="#hero">home</a></li>
-            <li><a href="#features">features</a></li>
+            <li><a href="#classPackage">classPackage</a></li>
             <li><a href="#about">about</a></li>
             <li><a href="#testimonials">testimonials</a></li>
             <li><a href="#contact">contact</a></li>
@@ -195,16 +239,10 @@
         <div class="socialMedia">
           <p>connect with us</p>
           <ul>
-            <img src="" alt="" />
-          </ul>
-          <ul>
-            <img src="" alt="" />
-          </ul>
-          <ul>
-            <img src="" alt="" />
-          </ul>
-          <ul>
-            <img src="" alt="" />
+            <li><a href="#">intagram</a></li>
+            <li><a href="#">facebook</a></li>
+            <li><a href="#">youtube</a></li>
+            <li><a href="#">twitter</a></li>
           </ul>
         </div>
         <div class="credit">
